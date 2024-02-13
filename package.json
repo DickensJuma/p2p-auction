@@ -1,0 +1,19 @@
+{
+  "name": "p2p-auction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hyperswarm/rpc": "^3.3.1",
+    "hyperbee": "^2.18.2",
+    "hypercore": "^10.33.0",
+    "hyperswarm": "^4.7.14"
+  }
+}
